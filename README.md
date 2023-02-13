@@ -57,7 +57,7 @@ Response data:
                         },
                         "status": "OK",
                         "distance_mi": {
-                            "text": "3.86 mi"
+                            "text": "1.5 mi"
                         }
                     }
                 ]
