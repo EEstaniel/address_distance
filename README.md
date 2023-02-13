@@ -37,20 +37,31 @@ Input data:
 Output data:
     
     {
-        "destination_addresses" : [ "2901 W Ball Rd, Anaheim, CA 92804, USA" ],
-        "origin_addresses" : [ "7655 Hollywood Blvd, Los Angeles, CA 90046, USA" ],
-        "rows" : [
+        "destination_addresses": [
+            "SW Campus Way, Corvallis, OR 97331, USA"
+        ],
+        "origin_addresses": [
+            "300 NW 3rd St, Corvallis, OR 97330, USA"
+        ],
+        "rows": [
             {
-                "elements" : [
+                "elements": [
                     {
-                        "distance" : {
-                            "text" : "54.1 km",
-                            "value" : 54097
-               },
-                        "duration" : {
-                            "text" : "51 mins",
-                            "value" : 3081
-               }, 
-                        "status" : "OK" }]}],
-                "status" : "OK"
+                        "distance": {
+                            "text": "2.4 km",
+                            "value": 2401
+                        },
+                        "duration": {
+                            "text": "7 mins",
+                            "value": 432
+                        },
+                        "status": "OK",
+                        "distance_mi": {
+                            "text": "3.86 mi"
+                        }
+                    }
+                ]
+            }
+        ],
+        "status": "OK"
     }
