@@ -32,7 +32,7 @@ def distance(request):
 
     # get distance in km and convert to miles
     addr_distance_km = float(response["rows"][0]['elements'][0]['distance']['text'].split(' ')[0])
-    miles = round(addr_distance_km * 1.609, 2)
+    miles = round(addr_distance_km / 1.609, 1)
 
     # add distance_mi to response
     response["rows"][0]['elements'][0]['distance_mi'] = {'text': f'{miles} mi'}
