@@ -18,11 +18,10 @@ Default use:
     
     [POST REQUEST]
     
-    http://localhost:/api/distance/
+    http://localhost:8000/api/distance/
 
-Input data:
+Request data:
 
-    JSON DATA:
     {
         origin: [street][city][state][zip/postal code]
         destination: [address2]
@@ -35,7 +34,7 @@ Input data:
         destination: SW Campus Way, Corvallis, OR 97331
     }
 
-Output data:
+Response data:
     
     {
         "destination_addresses": [
