@@ -31,7 +31,7 @@ def distance(request):
     response = requests.request("GET", url, headers=headers, data=payload).json()
 
     # get distance in km and convert to miles
-    addr_distance_km = float(response["rows"][0]['elements'][0]['distance']['text'].split(' ')[0])
+    addr_distance_km = float(response["rows"][0]['elements'][0]['distance']['text'].split(' ')[0].replace(',', ''))
     miles = round(addr_distance_km / 1.609, 1)
 
     # add distance_mi to response
