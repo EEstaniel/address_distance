@@ -8,7 +8,8 @@ A Django microservice that calculates the distance between two addresses.
 
 1. Recommended to use a virtual environment
 2. pip install -r requirements.txt
-
+3. [API Key Setup](https://developers.google.com/maps/documentation/distance-matrix/get-api-key)
+4. Add API key to address_distance/api/config.py
 5. Start using `python manage.py runserver`
 
 # Usage
