@@ -30,8 +30,8 @@ Input data:
     EXAMPLE:
 
     {
-        origin: 1500 NW Bethany Blvd, Beaverton, Oregon, 97006
-        destination: 5250 Campanile Dr, San Diego, CA, 92182
+        origin: 300 NW 3rd St, Corvallis, OR 97330
+        destination: SW Campus Way, Corvallis, OR 97331
     }
 
 Output data:
